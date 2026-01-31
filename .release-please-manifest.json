@@ -1,5 +1,5 @@
 {
   "packages/biome": "0.0.0",
   "packages/commitlint": "0.0.0",
-  "packages/typescript": "1.0.0"
+  "packages/typescript": "1.1.0"
 }
