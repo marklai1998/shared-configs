@@ -1,6 +1,6 @@
 {
   "name": "@marklai/shared-config-biome",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/marklai1998/shared-configs.git"
