@@ -1,6 +1,6 @@
 {
   "packages/biome": "1.0.0",
   "packages/commitlint": "1.0.0",
-  "packages/renovate": "1.0.0",
+  "packages/renovate": "1.1.0",
   "packages/typescript": "1.1.0"
 }
