@@ -7,6 +7,9 @@
     "packages/biome": {
       "release-type": "node"
     },
+    "packages/renovate": {
+      "release-type": "node"
+    },
     "packages/typescript": {
       "release-type": "node"
     },

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Wait 3 Hours before updating external dependencies",
+  "packageRules": [
+    {
+      "matchPackageNames": ["*"],
+      "matchUpdateTypes": ["patch"],
+      "minimumReleaseAge": "3 hours"
+    }
+  ]
+}

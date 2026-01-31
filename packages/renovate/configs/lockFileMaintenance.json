@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Housekeep lockfile to upgrade transitive deps",
+  "lockFileMaintenance": {
+    "enabled": true,
+    "extends": ["schedule:earlyMondays"]
+  }
+}

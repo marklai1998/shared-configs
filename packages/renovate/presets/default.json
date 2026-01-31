@@ -1,0 +1,7 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>marklai1998/shared-config-renovate//configs/base.json",
+    "config:js-app"
+  ]
+}

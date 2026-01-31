@@ -5,7 +5,15 @@
     "scope-enum": [
       2,
       "always",
-      ["main", "tooling", "deps", "biome", "commitlint", "typescript"]
+      [
+        "main",
+        "tooling",
+        "deps",
+        "biome",
+        "commitlint",
+        "renovate",
+        "typescript"
+      ]
     ]
   }
 }

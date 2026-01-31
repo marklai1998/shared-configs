@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "github>marklai1998/shared-config-renovate//configs/delayNonPatchVersion.json",
+    "github>marklai1998/shared-config-renovate//configs/delayPatchVersion.json",
+    "github>marklai1998/shared-config-renovate//configs/groupNode.json",
+    "github>marklai1998/shared-config-renovate//configs/lockFileMaintenance.json"
+  ],
+  "semanticCommits": "enabled",
+  "prConcurrentLimit": 10,
+  "prHourlyLimit": 2,
+  "labels": ["dependencies"],
+  "reviewersFromCodeOwners": true
+}
