@@ -1,0 +1,29 @@
+{
+  "name": "@marklai1998/shared-config-typescript",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marklai1998/shared-configs.git"
+  },
+  "exports": {
+    ".": "./config.json"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "files": [
+    "config.json"
+  ],
+  "devDependencies": {
+    "typescript": "5.9.3"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

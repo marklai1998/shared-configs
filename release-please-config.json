@@ -1,0 +1,18 @@
+{
+  "include-component-in-tag": true,
+  "include-v-in-tag": true,
+  "tag-separator": "@",
+  "separate-pull-requests": true,
+  "packages": {
+    "packages/biome": {
+      "release-type": "node"
+    },
+    "packages/typescript": {
+      "release-type": "node"
+    },
+    "packages/commitlint": {
+      "release-type": "node"
+    }
+  },
+  "$schema": "https://raw.githubusercontent.com/googleapis/release-please/main/schemas/config.json"
+}

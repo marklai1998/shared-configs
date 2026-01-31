@@ -1,0 +1,56 @@
+{
+  "name": "@marklai1998/shared-config-commitlint",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marklai1998/shared-configs.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.mts",
+  "exports": {
+    ".": {
+      "require": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "import": {
+        "types": "./dist/index.d.mts",
+        "default": "./dist/index.mjs"
+      }
+    }
+  },
+  "typesVersions": {
+    "*": {
+      "*": [
+        "./dist/index.d.mts"
+      ]
+    }
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "scripts": {
+    "build": "tsdown --format esm --format cjs"
+  },
+  "dependencies": {
+    "@commitlint/config-conventional": "20.3.1"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "20.3.1",
+    "tsdown": "0.20.1",
+    "typescript": "5.9.3"
+  },
+  "peerDependencies": {
+    "@commitlint/cli": "^20.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

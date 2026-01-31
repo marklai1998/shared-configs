@@ -1,0 +1,46 @@
+name: Publish Package to registry
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  id-token: write
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  release-please:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - uses: pnpm/action-setup@v4
+        name: Install pnpm
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version-file: '.node-version'
+          cache: 'pnpm'
+
+      - uses: googleapis/release-please-action@v4
+        id: release
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Build
+        run: pnpm build
+
+      - run: pnpm publish --filter "@marklai1998/shared-config-biome" --access public --no-git-checks
+        if: ${{ steps.release.outputs['packages/biome--release_created'] }}
+
+      - run: pnpm publish --filter "@marklai1998/shared-config-typescript" --access public --no-git-checks
+        if: ${{ steps.release.outputs['packages/typescript--release_created'] }}
+
+      - run: pnpm publish --filter "@marklai1998/shared-config-commitlint" --access public --no-git-checks
+        if: ${{ steps.release.outputs['packages/commitlint--release_created'] }}

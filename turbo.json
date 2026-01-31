@@ -1,0 +1,21 @@
+{
+  "$schema": "https://turborepo.com/schema.json",
+  "ui": "tui",
+  "globalDependencies": ["biome.json", "packages/tsconfig"],
+  "tasks": {
+    "lint:type": {},
+    "test": {},
+    "build": {
+      "cache": false
+    }
+  },
+  "boundaries": {
+    "tags": {
+      "packages": {
+        "dependents": {
+          "allow": ["packages"]
+        }
+      }
+    }
+  }
+}

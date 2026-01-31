@@ -1,0 +1,42 @@
+name: Commit message check
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, edited]
+
+env:
+  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+jobs:
+  check-commit-message:
+    name: Check commit message
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Install pnpm
+        uses: pnpm/action-setup@v4
+
+      - name: Setup node version
+        uses: actions/setup-node@v6
+        with:
+          node-version-file: '.node-version'
+          cache: 'pnpm'
+
+      - name: Install dependencies
+        run: pnpm i --frozen-lockfile
+
+      - name: Validate PR title with commitlint
+        if: github.event_name == 'pull_request'
+        run: echo "${{ github.event.pull_request.title }}" | pnpm commitlint
+
+      - name: Validate current commit (last commit) with commitlint
+        if: github.event_name == 'push'
+        run: pnpm commitlint --from HEAD~1 --to HEAD --verbose
+
+      - name: Validate PR commits with commitlint
+        if: github.event_name == 'pull_request'
+        run: pnpm commitlint --from ${{ github.event.pull_request.head.sha }}~${{ github.event.pull_request.commits }} --to ${{ github.event.pull_request.head.sha }} --verbose

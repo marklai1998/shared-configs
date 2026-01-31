@@ -1,0 +1,29 @@
+{
+  "name": "@marklai1998/shared-config-biome",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marklai1998/shared-config.git"
+  },
+  "exports": {
+    ".": "./config.json"
+  },
+  "license": "UNLICENSED",
+  "type": "module",
+  "files": [
+    "config.json"
+  ],
+  "devDependencies": {
+    "@biomejs/biome": "2.3.13"
+  },
+  "peerDependencies": {
+    "@biomejs/biome": "^2.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  }
+}

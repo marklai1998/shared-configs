@@ -1,0 +1,17 @@
+commit-msg:
+  jobs:
+    - name: Run commit-lint
+      run: pnpm commitlint --edit {1}
+
+pre-push:
+  jobs:
+    - name: Run type check
+      run: pnpm lint:type
+    - name: Run monorepo boundaries check
+      run: pnpm turbo boundaries
+
+pre-commit:
+  jobs:
+    - name: Run code formatter
+      run: pnpm biome check --fix --no-errors-on-unmatched --diagnostic-level=error {staged_files}
+      stage_fixed: true
