@@ -36,11 +36,11 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - run: pnpm publish --filter "@marklai1998/shared-config-biome" --access public --no-git-checks
+      - run: pnpm publish --filter "@marklai/shared-config-biome" --access public --no-git-checks
         if: ${{ steps.release.outputs['packages/biome--release_created'] }}
 
-      - run: pnpm publish --filter "@marklai1998/shared-config-typescript" --access public --no-git-checks
+      - run: pnpm publish --filter "@marklai/shared-config-typescript" --access public --no-git-checks
         if: ${{ steps.release.outputs['packages/typescript--release_created'] }}
 
-      - run: pnpm publish --filter "@marklai1998/shared-config-commitlint" --access public --no-git-checks
+      - run: pnpm publish --filter "@marklai/shared-config-commitlint" --access public --no-git-checks
         if: ${{ steps.release.outputs['packages/commitlint--release_created'] }}

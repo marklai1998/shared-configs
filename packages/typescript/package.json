@@ -1,5 +1,5 @@
 {
-  "name": "@marklai1998/shared-config-typescript",
+  "name": "@marklai/shared-config-typescript",
   "version": "1.0.0",
   "repository": {
     "type": "git",
@@ -21,9 +21,5 @@
   },
   "engines": {
     "node": ">=20"
-  },
-  "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com/"
   }
 }

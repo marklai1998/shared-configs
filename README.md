@@ -12,10 +12,10 @@ A monorepo containing shared configs for personal projects.
 
 ## 📦 Packages
 
-- [@marklai1998/shared-config-biome](packages/biome/README.md)
-- [@marklai1998/shared-config-commitlint](packages/commitlint/README.md)
-- [@marklai1998/shared-config-graphql-codegen](./packages/sharedConfigGraphqlCodegen/README.md)
-- [@marklai1998/shared-config-typescript](packages/typescript/README.md)
+- [@marklai/shared-config-biome](packages/biome/README.md)
+- [@marklai/shared-config-commitlint](packages/commitlint/README.md)
+- [@marklai/shared-config-graphql-codegen](./packages/sharedConfigGraphqlCodegen/README.md)
+- [@marklai/shared-config-typescript](packages/typescript/README.md)
 
 ## 🤝 Contributing
 

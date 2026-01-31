@@ -7,7 +7,7 @@ Shared TypeScript configuration.
 > Pre-Requirements: Set up [Commitlint](https://commitlint.js.org/) with [Lefthook](https://lefthook.dev/) commit-msg hooks
 
 ```bash
-pnpm add -D @marklai1998/shared-config-commitlint @commitlint/cli
+pnpm add -D @marklai/shared-config-commitlint @commitlint/cli
 ```
 
 ## 🚀 Quick Start
@@ -16,7 +16,7 @@ Create or update your `.commitlintrc.json` file:
 
 ```json
 {
-  "extends": ["@marklai1998/shared-config-commitlint"]
+  "extends": ["@marklai/shared-config-commitlint"]
   // Your project-specific overrides
 }
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "@marklai1998/shared-config-commitlint",
+  "name": "@marklai/shared-config-commitlint",
   "version": "0.0.0",
   "repository": {
     "type": "git",
@@ -48,9 +48,5 @@
   },
   "engines": {
     "node": ">=20"
-  },
-  "publishConfig": {
-    "access": "restricted",
-    "registry": "https://npm.pkg.github.com/"
   }
 }

@@ -7,7 +7,7 @@ Shared TypeScript configuration.
 > Pre-Requirements: Set up [Typescript](https://www.typescriptlang.org/)
 
 ```bash
-pnpm add -D @marklai1998/shared-config-typescript typescript
+pnpm add -D @marklai/shared-config-typescript typescript
 ```
 
 ## 🚀 Quick Start
@@ -16,7 +16,7 @@ Create or update your `tsconfig.json` file:
 
 ```json
 {
-  "extends": "@marklai1998/shared-config-typescript"
+  "extends": "@marklai/shared-config-typescript"
   // Your project-specific overrides
 }
 ```
