@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/marklai1998/shared-configs.git"
+    "url": "https://github.com/marklai1998/shared-config.git"
   },
   "files": [
     "dist"
