@@ -10,7 +10,7 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "@biomejs/biome": "2.4.2",
+    "@biomejs/biome": "2.4.3",
     "@commitlint/cli": "20.4.2",
     "@types/node": "24.10.13",
     "lefthook": "2.1.1",
