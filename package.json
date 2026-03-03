@@ -12,7 +12,7 @@
   "devDependencies": {
     "@biomejs/biome": "2.4.5",
     "@commitlint/cli": "20.4.2",
-    "@types/node": "24.10.15",
+    "@types/node": "24.11.0",
     "lefthook": "2.1.2",
     "turbo": "2.8.12",
     "typescript": "5.9.3"
