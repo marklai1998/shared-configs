@@ -36,10 +36,10 @@
     "build": "tsdown --format esm --format cjs"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "20.4.2"
+    "@commitlint/config-conventional": "20.4.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "20.4.2",
+    "@commitlint/cli": "20.4.3",
     "tsdown": "0.20.3",
     "typescript": "5.9.3"
   },

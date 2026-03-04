@@ -11,7 +11,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.4.5",
-    "@commitlint/cli": "20.4.2",
+    "@commitlint/cli": "20.4.3",
     "@types/node": "24.11.0",
     "lefthook": "2.1.2",
     "turbo": "2.8.12",
