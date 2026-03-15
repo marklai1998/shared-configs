@@ -40,7 +40,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "20.4.4",
-    "tsdown": "0.21.2",
+    "tsdown": "0.21.3",
     "typescript": "5.9.3"
   },
   "peerDependencies": {
