@@ -14,7 +14,7 @@
     "config.json"
   ],
   "devDependencies": {
-    "@biomejs/biome": "2.4.8"
+    "@biomejs/biome": "2.4.9"
   },
   "peerDependencies": {
     "@biomejs/biome": "^2.0.0"
