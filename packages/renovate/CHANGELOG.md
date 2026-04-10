@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.0](https://github.com/marklai1998/shared-configs/compare/shared-config-renovate@v1.1.1...shared-config-renovate@v1.2.0) (2026-04-10)
+
+
+### Features
+
+* group dev ([b3fe732](https://github.com/marklai1998/shared-configs/commit/b3fe732cea00d365608262fe4087d46fbff1c151))
+* group dev ([42224e0](https://github.com/marklai1998/shared-configs/commit/42224e059e006dddc44cf22f1cee9eef1158aa4c))
+
 ## [1.1.1](https://github.com/marklai1998/shared-configs/compare/shared-config-renovate@v1.1.0...shared-config-renovate@v1.1.1) (2026-01-31)
 
 
