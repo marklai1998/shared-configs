@@ -2,11 +2,18 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
     "config:recommended",
+    "helpers:pinGitHubActionDigests",
     "github>marklai1998/shared-configs//packages/renovate/configs/delayNonPatchVersion.json",
     "github>marklai1998/shared-configs//packages/renovate/configs/delayPatchVersion.json",
     "github>marklai1998/shared-configs//packages/renovate/configs/groupNode.json",
-    "github>marklai1998/shared-configs//packages/renovate/configs/lockFileMaintenance.json"
+    "github>marklai1998/shared-configs//packages/renovate/configs/lockFileMaintenance.json",
+    "github>marklai1998/shared-configs//packages/renovate/configs/groupDevDependencies.json",
+    "github>marklai1998/shared-configs//packages/renovate/configs/dedupe.json"
   ],
+  "osvVulnerabilityAlerts": true,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
   "semanticCommits": "enabled",
   "prConcurrentLimit": 10,
   "prHourlyLimit": 2,
