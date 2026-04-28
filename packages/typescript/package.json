@@ -8,7 +8,6 @@
   "exports": {
     ".": "./config.json"
   },
-  "license": "UNLICENSED",
   "type": "module",
   "files": [
     "config.json"
