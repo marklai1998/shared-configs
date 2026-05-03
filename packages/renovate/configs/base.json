@@ -3,8 +3,7 @@
   "extends": [
     "config:recommended",
     "helpers:pinGitHubActionDigests",
-    "github>marklai1998/shared-configs//packages/renovate/configs/delayNonPatchVersion.json",
-    "github>marklai1998/shared-configs//packages/renovate/configs/delayPatchVersion.json",
+    "github>marklai1998/shared-configs//packages/renovate/configs/delayVersion.json",
     "github>marklai1998/shared-configs//packages/renovate/configs/groupNode.json",
     "github>marklai1998/shared-configs//packages/renovate/configs/lockFileMaintenance.json",
     "github>marklai1998/shared-configs//packages/renovate/configs/groupDevDependencies.json",

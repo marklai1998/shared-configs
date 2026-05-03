@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "groupName": "Dev dependencies",
-      "matchDepTypes": ["devDependencies"],
+      "matchDepTypes": ["devDependencies", "action"],
       "matchUpdateTypes": ["minor", "patch"],
       "extends": ["schedule:earlyMondays"]
     }
