@@ -1,12 +1,9 @@
 packages:
   - packages/*
 
-auditConfig: {}
-
 autoInstallPeers: false
 
-onlyBuiltDependencies:
-  - esbuild
-  - lefthook
-
 sideEffectsCache: false
+allowBuilds:
+  esbuild: true
+  lefthook: true
