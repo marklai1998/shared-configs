@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.1](https://github.com/marklai1998/shared-configs/compare/shared-config-renovate@v1.3.0...shared-config-renovate@v1.3.1) (2026-05-12)
+
+
+### Bug Fixes
+
+* **renovate:** automerge setup ([b48c9e9](https://github.com/marklai1998/shared-configs/commit/b48c9e99d51fe718f59b0c68a095d1f10ad54ec2))
+
 ## [1.3.0](https://github.com/marklai1998/shared-configs/compare/shared-config-renovate@v1.2.0...shared-config-renovate@v1.3.0) (2026-05-03)
 
 
