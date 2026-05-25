@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.4](https://github.com/marklai1998/shared-configs/compare/shared-config-commitlint@v1.0.3...shared-config-commitlint@v1.0.4) (2026-05-25)
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo to v21.0.1 ([#142](https://github.com/marklai1998/shared-configs/issues/142)) ([7613bed](https://github.com/marklai1998/shared-configs/commit/7613bed0879bc4bbdedf77c6bfcd45faea9dfdec))
+
 ## [1.0.3](https://github.com/marklai1998/shared-configs/compare/shared-config-commitlint@v1.0.2...shared-config-commitlint@v1.0.3) (2026-05-11)
 
 
