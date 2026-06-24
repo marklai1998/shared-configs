@@ -40,6 +40,9 @@
           }
         },
         "noInferrableTypes": "error"
+      },
+      "a11y": {
+        "noSvgWithoutTitle": "warn"
       }
     }
   },
