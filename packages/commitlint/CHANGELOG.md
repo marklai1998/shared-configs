@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.0](https://github.com/marklai1998/shared-configs/compare/shared-config-commitlint@v1.0.6...shared-config-commitlint@v1.1.0) (2026-07-13)
+
+
+### Features
+
+* **commitlint:** drop cjs build ([9ceb3b8](https://github.com/marklai1998/shared-configs/commit/9ceb3b80169458c86cc005ae2c6878f32eb18226))
+
+
+### Bug Fixes
+
+* **deps:** update commitlint monorepo ([#185](https://github.com/marklai1998/shared-configs/issues/185)) ([4c54715](https://github.com/marklai1998/shared-configs/commit/4c54715b07cc247992b8eb2e547162821f227381))
+
 ## [1.0.6](https://github.com/marklai1998/shared-configs/compare/shared-config-commitlint@v1.0.5...shared-config-commitlint@v1.0.6) (2026-07-13)
 
 
