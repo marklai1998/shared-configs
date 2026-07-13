@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.2](https://github.com/marklai1998/shared-configs/compare/shared-config-renovate@v1.3.1...shared-config-renovate@v1.3.2) (2026-07-13)
+
+
+### Bug Fixes
+
+* **tooling:** remove license ([186bd91](https://github.com/marklai1998/shared-configs/commit/186bd9110c0a5dfd2c9e15a173f845d34bde0cba))
+
 ## [1.3.1](https://github.com/marklai1998/shared-configs/compare/shared-config-renovate@v1.3.0...shared-config-renovate@v1.3.1) (2026-05-12)
 
 
