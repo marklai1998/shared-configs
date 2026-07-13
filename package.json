@@ -15,7 +15,7 @@
     "@types/node": "24.13.3",
     "lefthook": "2.1.10",
     "turbo": "2.10.4",
-    "typescript": "6.0.3"
+    "typescript": "7.0.2"
   },
   "packageManager": "pnpm@11.11.0"
 }
