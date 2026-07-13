@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.0.6](https://github.com/marklai1998/shared-configs/compare/shared-config-commitlint@v1.0.5...shared-config-commitlint@v1.0.6) (2026-07-13)
+
+
+### Bug Fixes
+
+* **commitlint:** cjs entry point ([605bf8c](https://github.com/marklai1998/shared-configs/commit/605bf8cf0878a7f7c5ef30a266f000057c0fee9e))
+* **tooling:** remove license ([186bd91](https://github.com/marklai1998/shared-configs/commit/186bd9110c0a5dfd2c9e15a173f845d34bde0cba))
+
 ## [1.0.5](https://github.com/marklai1998/shared-configs/compare/shared-config-commitlint@v1.0.4...shared-config-commitlint@v1.0.5) (2026-06-08)
 
 
