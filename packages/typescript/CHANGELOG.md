@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/marklai1998/shared-configs/compare/shared-config-typescript@v1.1.1...shared-config-typescript@v1.1.2) (2026-07-13)
+
+
+### Bug Fixes
+
+* **tooling:** remove license ([186bd91](https://github.com/marklai1998/shared-configs/commit/186bd9110c0a5dfd2c9e15a173f845d34bde0cba))
+
 ## [1.1.1](https://github.com/marklai1998/shared-configs/compare/shared-config-typescript@v1.1.0...shared-config-typescript@v1.1.1) (2026-04-10)
 
 
