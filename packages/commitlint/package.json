@@ -29,10 +29,10 @@
     "build": "tsdown --format esm"
   },
   "dependencies": {
-    "@commitlint/config-conventional": "21.2.2"
+    "@commitlint/config-conventional": "21.2.3"
   },
   "devDependencies": {
-    "@commitlint/cli": "21.2.2",
+    "@commitlint/cli": "21.2.3",
     "tsdown": "0.23.0",
     "typescript": "7.0.2"
   },
