@@ -1,4 +1,7 @@
 {
   "$schema": "./node_modules/@biomejs/biome/configuration_schema.json",
-  "extends": ["packages/biome/config.json"]
+  "extends": ["packages/biome/config.json"],
+  "files": {
+    "includes": ["**", "!**/CHANGELOG.md"]
+  }
 }

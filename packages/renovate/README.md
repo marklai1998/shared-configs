@@ -33,6 +33,7 @@ To use a preset, add it to the extent list of your Renovate config in your repos
 - `lib` - only pins dev dependencies
 
 Example
+
 ```diff
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
@@ -69,8 +70,8 @@ For auto merge to work, you need to configure your GitHub repository rulesets to
 1. Go to your repository settings → **Rulesets**
 
 2. Split your ruleset into two separate rulesets:
-    - **Ruleset 1:** Dedicated for requiring reviewers (PR approval restrictions)
-    - **Ruleset 2:** For code quality checks, type checking, and unit tests
+   - **Ruleset 1:** Dedicated for requiring reviewers (PR approval restrictions)
+   - **Ruleset 2:** For code quality checks, type checking, and unit tests
 
 3. In **Ruleset 1**, add `renovate` to the **Bypass list** and set it to **Exempt from rules**
 
