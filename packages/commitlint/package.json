@@ -33,7 +33,7 @@
   },
   "devDependencies": {
     "@commitlint/cli": "21.2.4",
-    "tsdown": "0.23.1",
+    "tsdown": "0.23.5",
     "typescript": "7.0.2"
   },
   "peerDependencies": {
